@@ -58,3 +58,123 @@ h2{
     text-align: center;
 }
 
+#jobs {
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+h3{
+margin-bottom: 4;
+margin-top: 0;
+
+}
+.Apply{
+
+    float: right;
+}
+
+a{
+ text-decoration: none;
+
+}
+
+#footer 
+{
+    background-color: ghostwhite;
+   
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#footer-links{
+    list-style: none;
+    margin: 016px;
+    
+}
+
+#footer-links li {
+    display: inline;
+}
+
+.copywright{
+
+    color: gray;
+}
+#jobs-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+
+}
+.jobs-header-row th {
+
+border: 1px solid gray;
+padding: 8px;
+background-color: aliceblue;
+text-align: center;
+
+
+}
+.jobs-data-row td {
+    border: 1px solid  gray;
+    padding: 8px;
+    
+}
+#jobs-table tr:nth-child(odd){
+background-color: ghostwhite;
+
+}
+h1, h2, h3, h4, h5, h6{
+
+font-family:"Inter" sans-serif;
+
+}
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+#application-form lebel {
+ 
+font-weight: 600;
+
+}
+
+#application-form input, select, textarea {
+
+    padding: 8px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+#application-form label {
+
+    font-weight: 600;
+    margin-top: 8px;
+}
+#application-form div {
+margin: 16px;
+}
+
+
+.form-group{
+margin: 16px 0;
+
+
+}
+.form-group textarea{
+
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-group input[ type="checkbox"]{
+
+    width: 16px;
+    height: 16px;
+}
