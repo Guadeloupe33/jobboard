@@ -133,6 +133,80 @@
      
      </div>
 
+     <div id="application">
 
+        <h2>Sumit Your Application</h2>
+
+        <form id="application-form">
+            <div>
+<label>Full Name</label><br>
+<input type="text" id="name" name="Full name" required placeholder="John Doe">
+
+
+            </div>
+
+<div>
+
+    <label>Email</label><br>
+    <input type="email" id="email" name="email address" required placeholder="jdoe@eample.com">
+
+
+</div>
+
+<div>
+
+    <label>Phone</label><br>
+    <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+
+
+</div>
+
+<div>
+    <label>Date of Brith</label><br>
+
+    <input type="date" id="dob" name="date_of_birth" required>
+
+</div>
+
+
+
+
+<div class="form-group">
+    <label for="position"> Position Applied for</label><br>
+
+    
+    <select id="position" name="Position Applied" required>
+        <option value="">Select Position</option>
+        <option value="frontend developer"> Frontend Developer</option>
+        <option value="fullstack developer "> Full Stack Developer</option>
+        <option value="data scientist"> Data scientist</option>
+        <option value="ml engineer"> ML scientist</option>
+    </select>
+
+</div>
+
+        <div class="form-group">
+            <label for="coverletter"> Upload Letter</label><br>
+        <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+
+    </div>
+    <div class="form-group">
+        <label for="coverletter"> Cover Letter</label><br>
+         <textarea name="coverletter" id="coverletter" rows="5" required placeholder="Explain what makes you suitble for the job.."></textarea>
+
+    </div>
+
+
+    <div class="form-group">
+<label for="terms">
+        <input type="checkbox" id="agree" name="agree" value="yes" required>
+        I agree to the terms and conditions</label>
+
+    </div>
+
+
+    <div class="form-group">
+
+<input type="submit" value="Sumit Application">
 </body>
 </html>
