@@ -19,3 +19,42 @@ h1{
     width: 100%;
 
 }
+.location{
+    color: gray; 
+    margin-bottom: 16px;
+}
+
+#navbar {
+    padding: 8px;
+}
+#logo {
+
+    height: 30px;
+}
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+#description{
+width: 50%;
+padding-right: 8px;
+
+}
+
+#team {
+width: 50%;
+
+}
+
+#team-image{
+border-radius: 5px;
+width: 100%;
+
+}
+h2{
+
+    text-align: center;
+}
+
