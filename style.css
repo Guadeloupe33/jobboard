@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+h1{
+    text-align: center;
+    color: darkblue;
+}
+
+#banner {
+
+    object-fit: cover;
+}
+#banner{
+    width: 100%;
+
+}
